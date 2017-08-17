@@ -1,0 +1,40 @@
+{
+	"PluginFileVersion" : 1,
+
+	"FriendlyName" : "IKinema Animation Node",
+	"Version" : 32,
+	"VersionName" : "1.7.0",
+	"CreatedBy" : "IKinema Ltd",
+	"CreatedByURL" : "http://IKinema.com",
+	"EngineVersion" : "4.16",
+	"Description" : "Create Procedural animation node",
+	"CategoryPath" : "Animation",
+	"EnabledByDefault" : true,
+	"CanContainContent" : true,
+	"Modules" :
+	[
+
+		{
+			"Name" : "JsonUtils",
+			"Type" : "Developer",
+			"LoadingPhase" : "Default",
+			"WhitelistPlatforms" : [ "Win64" ]
+		},
+		{
+			"Name" : "IKinemaCore",
+			"Type" : "Runtime",
+			"LoadingPhase" : "PreDefault"
+		},
+		{
+			"Name" : "IKinemaEditor",
+			"Type" : "Developer",
+			"WhitelistPlatforms" : [ "Win64" ],
+			"LoadingPhase" : "PreDefault"
+		},
+		{
+			"Name" : "IKinemaRigTool",
+			"Type" : "Developer",
+			"LoadingPhase" : "PreDefault"
+		}
+	]
+}
